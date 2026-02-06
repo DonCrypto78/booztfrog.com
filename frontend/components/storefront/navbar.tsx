@@ -1,17 +1,35 @@
 'use client';
 
-import { useState } from 'react';
-import { useTranslations } from 'next-intl';
-import { useLocale } from 'next-intl';
+import { useState, useEffect } from 'react';
+import { useTranslations, useLocale } from 'next-intl';
 import Link from 'next/link';
+import Image from 'next/image';
+import { usePathname } from 'next/navigation';
 import { Menu, X } from 'lucide-react';
+import { cn } from '@/lib/utils';
 import { Button } from '@/components/ui/button';
 import { LanguageSwitcher } from '@/components/storefront/language-switcher';
 
 export function Navbar() {
   const t = useTranslations('nav');
   const locale = useLocale();
+  const pathname = usePathname();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+
+  const isHomepage =
+    pathname === `/${locale}` || pathname === `/${locale}/`;
+
+  useEffect(() => {
+    function handleScroll() {
+      setScrolled(window.scrollY > 50);
+    }
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    handleScroll();
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  const isTransparent = isHomepage && !scrolled && !isMobileMenuOpen;
 
   const navLinks = [
     { href: `/${locale}`, label: t('home') },
@@ -20,13 +38,28 @@ export function Navbar() {
   ];
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+    <header
+      className={cn(
+        'fixed top-0 z-50 w-full transition-all duration-300',
+        isTransparent
+          ? 'bg-transparent'
+          : 'bg-white/95 shadow-sm backdrop-blur supports-[backdrop-filter]:bg-white/90'
+      )}
+    >
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <div className="flex items-center gap-8">
           <Link href={`/${locale}`} className="flex items-center gap-2">
-            <span className="text-xl font-bold text-brand-navy">
-              Boozt<span className="text-primary">Frog</span>
-            </span>
+            <Image
+              src="/img/logo.png"
+              alt="BooztFrog"
+              width={178}
+              height={35}
+              className={cn(
+                'h-9 w-auto transition-all duration-300',
+                isTransparent && 'brightness-0 invert'
+              )}
+              priority
+            />
           </Link>
 
           <nav className="hidden items-center gap-6 md:flex">
@@ -34,7 +67,12 @@ export function Navbar() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
+                className={cn(
+                  'text-sm font-medium transition-colors',
+                  isTransparent
+                    ? 'text-white/80 hover:text-white'
+                    : 'text-muted-foreground hover:text-foreground'
+                )}
               >
                 {link.label}
               </Link>
@@ -44,17 +82,32 @@ export function Navbar() {
 
         <div className="hidden items-center gap-3 md:flex">
           <LanguageSwitcher />
-          <Button variant="ghost" asChild>
+          <Button
+            variant="ghost"
+            asChild
+            className={cn(
+              isTransparent && 'text-white hover:bg-white/10'
+            )}
+          >
             <Link href={`/${locale}/login`}>{t('login')}</Link>
           </Button>
-          <Button asChild>
+          <Button
+            asChild
+            className={cn(
+              isTransparent &&
+                'bg-white text-brand-navy hover:bg-white/90'
+            )}
+          >
             <Link href={`/${locale}/register`}>{t('signup')}</Link>
           </Button>
         </div>
 
         <button
           type="button"
-          className="md:hidden"
+          className={cn(
+            'md:hidden',
+            isTransparent ? 'text-white' : 'text-foreground'
+          )}
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           aria-label={isMobileMenuOpen ? 'Close menu' : 'Open menu'}
         >
@@ -67,7 +120,7 @@ export function Navbar() {
       </div>
 
       {isMobileMenuOpen && (
-        <div className="border-t md:hidden">
+        <div className="border-t bg-white md:hidden">
           <div className="space-y-1 px-4 py-4">
             {navLinks.map((link) => (
               <Link

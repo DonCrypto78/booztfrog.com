@@ -2,6 +2,7 @@
 
 import { useTranslations, useLocale } from 'next-intl';
 import Link from 'next/link';
+import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { cn } from '@/lib/utils';
 import {
@@ -105,10 +106,14 @@ export function Sidebar({ isOpen, onClose }: SidebarProps) {
         )}
       >
         <div className="flex h-16 items-center justify-between border-b border-sidebar-border px-6">
-          <Link href={`/${locale}`} className="flex items-center gap-2">
-            <span className="text-xl font-bold text-white">
-              Boozt<span className="text-sidebar-primary">Frog</span>
-            </span>
+          <Link href={`/${locale}`}>
+            <Image
+              src="/img/logo.png"
+              alt="BooztFrog"
+              width={178}
+              height={35}
+              className="h-9 w-auto brightness-0 invert"
+            />
           </Link>
           <Button
             variant="ghost"

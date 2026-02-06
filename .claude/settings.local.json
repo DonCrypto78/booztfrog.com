@@ -13,7 +13,8 @@
       "Bash(npx tsc:*)",
       "Bash(timeout 15 npx next dev:*)",
       "Bash(timeout 20 npx next dev:*)",
-      "Bash(ls:*)"
+      "Bash(ls:*)",
+      "WebFetch(domain:superprops-next.vercel.app)"
     ]
   }
 }

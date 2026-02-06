@@ -1,6 +1,7 @@
 import { useTranslations } from 'next-intl';
 import { useLocale } from 'next-intl';
 import Link from 'next/link';
+import Image from 'next/image';
 import { LanguageSwitcher } from '@/components/storefront/language-switcher';
 
 export function Footer() {
@@ -45,10 +46,14 @@ export function Footer() {
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="grid grid-cols-2 gap-8 md:grid-cols-5">
           <div className="col-span-2 md:col-span-1">
-            <Link href={`/${locale}`} className="flex items-center gap-2">
-              <span className="text-xl font-bold">
-                Boozt<span className="text-primary">Frog</span>
-              </span>
+            <Link href={`/${locale}`}>
+              <Image
+                src="/img/logo.png"
+                alt="BooztFrog"
+                width={178}
+                height={35}
+                className="h-9 w-auto brightness-0 invert"
+              />
             </Link>
             <p className="mt-4 text-sm text-gray-400">{t('tagline')}</p>
             <div className="mt-4">
