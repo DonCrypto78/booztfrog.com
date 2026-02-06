@@ -98,7 +98,7 @@ export function Navbar() {
           <NavigationMenuList>
             {/* Products dropdown */}
             <NavigationMenuItem>
-              <NavigationMenuTrigger className="text-sm font-medium text-[#072337] hover:bg-[#4CAF50] hover:text-white focus:bg-[#4CAF50] focus:text-white data-[state=open]:bg-[#4CAF50]/10 data-[state=open]:hover:bg-[#4CAF50] data-[state=open]:focus:bg-[#4CAF50]">
+              <NavigationMenuTrigger className="text-[#072337]">
                 {t('products')}
               </NavigationMenuTrigger>
               <NavigationMenuContent>
@@ -136,7 +136,7 @@ export function Navbar() {
 
             {/* Industries dropdown */}
             <NavigationMenuItem>
-              <NavigationMenuTrigger className="text-sm font-medium text-[#072337] hover:bg-[#4CAF50] hover:text-white focus:bg-[#4CAF50] focus:text-white data-[state=open]:bg-[#4CAF50]/10 data-[state=open]:hover:bg-[#4CAF50] data-[state=open]:focus:bg-[#4CAF50]">
+              <NavigationMenuTrigger className="text-[#072337]">
                 {t('industries')}
               </NavigationMenuTrigger>
               <NavigationMenuContent>
@@ -183,7 +183,7 @@ export function Navbar() {
 
             {/* Support dropdown */}
             <NavigationMenuItem>
-              <NavigationMenuTrigger className="text-sm font-medium text-[#072337] hover:bg-[#4CAF50] hover:text-white focus:bg-[#4CAF50] focus:text-white data-[state=open]:bg-[#4CAF50]/10 data-[state=open]:hover:bg-[#4CAF50] data-[state=open]:focus:bg-[#4CAF50]">
+              <NavigationMenuTrigger className="text-[#072337]">
                 {t('support')}
               </NavigationMenuTrigger>
               <NavigationMenuContent>
