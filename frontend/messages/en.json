@@ -41,9 +41,40 @@
   "nav": {
     "home": "Home",
     "products": "Products",
+    "productsMenu": {
+      "nfcCards": "NFC Review Cards",
+      "nfcCardsDesc": "Tap-to-review business cards with NFC technology",
+      "nfcPlaques": "NFC Review Plaques",
+      "nfcPlaquesDesc": "Premium table and wall plaques for your business",
+      "bulkOrders": "Bulk / Enterprise Orders",
+      "bulkOrdersDesc": "Custom orders for multi-location businesses"
+    },
+    "howItWorks": "How It Works",
     "pricing": "Pricing",
-    "about": "About",
-    "contact": "Contact",
+    "industries": "Industries",
+    "industriesMenu": {
+      "restaurants": "Restaurants",
+      "cafes": "Cafés",
+      "bars": "Bars & Pubs",
+      "hotels": "Hotels & AirBnBs",
+      "barbers": "Barber Shops",
+      "fitness": "Fitness Studios",
+      "beauty": "Beauty / Spa",
+      "carServices": "Car Services"
+    },
+    "reviews": "Reviews",
+    "blog": "Blog",
+    "support": "Support",
+    "supportMenu": {
+      "faq": "FAQ",
+      "faqDesc": "Frequently asked questions",
+      "setupGuides": "Setup Guides",
+      "setupGuidesDesc": "Step-by-step instructions for your devices",
+      "contact": "Contact",
+      "contactDesc": "Get in touch with our team",
+      "shipping": "Shipping & Returns",
+      "shippingDesc": "Delivery times and return policy"
+    },
     "login": "Log in",
     "signup": "Sign up",
     "dashboard": "Dashboard",

@@ -41,9 +41,40 @@
   "nav": {
     "home": "Hjem",
     "products": "Produkter",
+    "productsMenu": {
+      "nfcCards": "NFC-anmeldelseskort",
+      "nfcCardsDesc": "Trykk-for-anmeldelse visittkort med NFC-teknologi",
+      "nfcPlaques": "NFC-anmeldelsesplaketter",
+      "nfcPlaquesDesc": "Premium bord- og veggplaketter for din bedrift",
+      "bulkOrders": "Bulk- / bedriftsbestillinger",
+      "bulkOrdersDesc": "Skreddersydde bestillinger for bedrifter med flere lokasjoner"
+    },
+    "howItWorks": "Slik fungerer det",
     "pricing": "Priser",
-    "about": "Om oss",
-    "contact": "Kontakt",
+    "industries": "Bransjer",
+    "industriesMenu": {
+      "restaurants": "Restauranter",
+      "cafes": "Kaféer",
+      "bars": "Barer og puber",
+      "hotels": "Hoteller og AirBnBs",
+      "barbers": "Frisørsalonger",
+      "fitness": "Treningssentre",
+      "beauty": "Skjønnhet / Spa",
+      "carServices": "Bilverksteder"
+    },
+    "reviews": "Anmeldelser",
+    "blog": "Blogg",
+    "support": "Støtte",
+    "supportMenu": {
+      "faq": "Vanlige spørsmål",
+      "faqDesc": "Ofte stilte spørsmål",
+      "setupGuides": "Oppsettguider",
+      "setupGuidesDesc": "Steg-for-steg-instruksjoner for enhetene dine",
+      "contact": "Kontakt",
+      "contactDesc": "Ta kontakt med teamet vårt",
+      "shipping": "Frakt og retur",
+      "shippingDesc": "Leveringstider og returpolicy"
+    },
     "login": "Logg inn",
     "signup": "Registrer deg",
     "dashboard": "Dashbord",

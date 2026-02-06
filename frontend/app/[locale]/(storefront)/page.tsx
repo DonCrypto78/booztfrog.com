@@ -100,7 +100,7 @@ export default function HomePage() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative -mt-16 overflow-hidden bg-gradient-to-br from-brand-navy via-brand-navy to-brand-dark-green px-4 pb-20 pt-32 text-white sm:px-6 lg:px-8 lg:pb-28 lg:pt-40">
+      <section className="relative overflow-hidden bg-gradient-to-br from-brand-navy via-brand-navy to-brand-dark-green px-4 pb-20 pt-16 text-white sm:px-6 lg:px-8 lg:pb-28 lg:pt-24">
         <div className="mx-auto max-w-7xl">
           <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
             {/* Left: Content */}
@@ -128,7 +128,7 @@ export default function HomePage() {
                 <Button
                   size="lg"
                   variant="outline"
-                  className="border-white/30 text-base text-white backdrop-blur-sm hover:bg-white/10"
+                  className="border-2 border-white bg-transparent text-base text-white hover:bg-white hover:text-brand-navy"
                   asChild
                 >
                   <Link href="#how-it-works">{t('hero.ctaSecondary')}</Link>
