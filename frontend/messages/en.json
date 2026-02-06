@@ -1,0 +1,317 @@
+{
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "update": "Update",
+    "search": "Search",
+    "filter": "Filter",
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "success": "Success",
+    "confirm": "Confirm",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "close": "Close",
+    "yes": "Yes",
+    "no": "No",
+    "or": "or",
+    "and": "and",
+    "noResults": "No results found",
+    "viewAll": "View all",
+    "learnMore": "Learn more",
+    "getStarted": "Get started",
+    "name": "Name",
+    "email": "Email",
+    "password": "Password",
+    "status": "Status",
+    "date": "Date",
+    "actions": "Actions",
+    "active": "Active",
+    "inactive": "Inactive",
+    "description": "Description",
+    "type": "Type",
+    "price": "Price",
+    "total": "Total",
+    "quantity": "Quantity"
+  },
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "pricing": "Pricing",
+    "about": "About",
+    "contact": "Contact",
+    "login": "Log in",
+    "signup": "Sign up",
+    "dashboard": "Dashboard",
+    "logout": "Log out",
+    "myAccount": "My account"
+  },
+  "footer": {
+    "company": "Company",
+    "about": "About us",
+    "contact": "Contact",
+    "careers": "Careers",
+    "blog": "Blog",
+    "product": "Product",
+    "features": "Features",
+    "pricing": "Pricing",
+    "integrations": "Integrations",
+    "changelog": "Changelog",
+    "support": "Support",
+    "helpCenter": "Help center",
+    "documentation": "Documentation",
+    "status": "Status",
+    "legal": "Legal",
+    "privacy": "Privacy policy",
+    "terms": "Terms of service",
+    "cookies": "Cookie policy",
+    "tagline": "Helping businesses collect more reviews through NFC and QR technology.",
+    "copyright": "© {year} BooztFrog. All rights reserved."
+  },
+  "home": {
+    "hero": {
+      "tagline": "Tap. Scan. Boozt.",
+      "title": "Get more customer reviews effortlessly",
+      "subtitle": "Turn every customer interaction into a review with BooztFrog's NFC and QR products. One tap is all it takes.",
+      "cta": "Start collecting reviews",
+      "ctaSecondary": "See how it works"
+    },
+    "products": {
+      "title": "Products built for reviews",
+      "subtitle": "Premium NFC cards, QR stickers, and displays designed to make leaving a review effortless for your customers.",
+      "viewAll": "View all products"
+    },
+    "howItWorks": {
+      "title": "How it works",
+      "subtitle": "Three simple steps to start collecting more reviews today.",
+      "step1": {
+        "title": "Choose your product",
+        "description": "Pick from NFC cards, QR stickers, table signs, or display stands."
+      },
+      "step2": {
+        "title": "Set up your platforms",
+        "description": "Connect Google, TripAdvisor, Trustpilot, or any review platform."
+      },
+      "step3": {
+        "title": "Start collecting reviews",
+        "description": "Customers tap or scan and are taken directly to leave a review."
+      }
+    },
+    "pricing": {
+      "title": "Simple, transparent pricing",
+      "subtitle": "Start free and scale as you grow. No hidden fees.",
+      "viewPlans": "View all plans"
+    },
+    "testimonials": {
+      "title": "Trusted by businesses worldwide",
+      "subtitle": "See how BooztFrog is helping businesses get more reviews."
+    },
+    "cta": {
+      "title": "Ready to boozt your reviews?",
+      "subtitle": "Join thousands of businesses already using BooztFrog to collect more customer reviews.",
+      "button": "Get started for free"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Welcome back",
+      "subtitle": "Log in to your BooztFrog account",
+      "emailLabel": "Email address",
+      "emailPlaceholder": "you@example.com",
+      "passwordLabel": "Password",
+      "passwordPlaceholder": "Enter your password",
+      "forgotPassword": "Forgot password?",
+      "submit": "Log in",
+      "noAccount": "Don't have an account?",
+      "signupLink": "Sign up"
+    },
+    "register": {
+      "title": "Create your account",
+      "subtitle": "Start collecting more reviews today",
+      "nameLabel": "Full name",
+      "namePlaceholder": "John Doe",
+      "emailLabel": "Email address",
+      "emailPlaceholder": "you@example.com",
+      "passwordLabel": "Password",
+      "passwordPlaceholder": "Create a password",
+      "confirmPasswordLabel": "Confirm password",
+      "confirmPasswordPlaceholder": "Confirm your password",
+      "submit": "Create account",
+      "hasAccount": "Already have an account?",
+      "loginLink": "Log in",
+      "terms": "By creating an account, you agree to our {terms} and {privacy}.",
+      "termsLink": "Terms of Service",
+      "privacyLink": "Privacy Policy"
+    },
+    "forgotPassword": {
+      "title": "Reset your password",
+      "subtitle": "Enter your email and we'll send you a reset link",
+      "emailLabel": "Email address",
+      "emailPlaceholder": "you@example.com",
+      "submit": "Send reset link",
+      "backToLogin": "Back to login",
+      "success": "If an account exists with that email, we've sent a password reset link."
+    }
+  },
+  "dashboard": {
+    "sidebar": {
+      "overview": "Dashboard",
+      "analytics": "Analytics",
+      "devices": "Devices",
+      "locations": "Locations",
+      "platforms": "Platforms",
+      "landingPage": "Landing Page",
+      "orders": "Orders",
+      "subscription": "Subscription",
+      "settings": "Settings"
+    },
+    "topbar": {
+      "selectBusiness": "Select business",
+      "notifications": "Notifications",
+      "noNotifications": "No new notifications",
+      "profile": "Profile",
+      "settings": "Settings",
+      "logout": "Log out"
+    },
+    "overview": {
+      "title": "Dashboard",
+      "welcome": "Welcome back, {name}!",
+      "totalScans": "Total Scans",
+      "uniqueVisitors": "Unique Visitors",
+      "activeDevices": "Active Devices",
+      "reviewRate": "Review Rate",
+      "recentActivity": "Recent Activity",
+      "quickActions": "Quick Actions",
+      "addDevice": "Add Device",
+      "addLocation": "Add Location",
+      "viewAnalytics": "View Analytics",
+      "noActivity": "No recent activity"
+    },
+    "analytics": {
+      "title": "Analytics",
+      "totalScans": "Total Scans",
+      "uniqueVisitors": "Unique Visitors",
+      "topPlatform": "Top Platform",
+      "scansTrend": "Scans Trend",
+      "dateRange": "Date range",
+      "last7Days": "Last 7 days",
+      "last30Days": "Last 30 days",
+      "last90Days": "Last 90 days",
+      "lastYear": "Last year",
+      "platformBreakdown": "Platform Breakdown",
+      "deviceBreakdown": "Device Breakdown",
+      "locationBreakdown": "Location Breakdown",
+      "scansOverTime": "Scans Over Time"
+    },
+    "devices": {
+      "title": "Devices",
+      "addDevice": "Add Device",
+      "deviceCode": "Device Code",
+      "deviceType": "Type",
+      "location": "Location",
+      "label": "Label",
+      "lastScan": "Last Scan",
+      "totalScans": "Total Scans",
+      "status": "Status",
+      "activate": "Activate",
+      "deactivate": "Deactivate",
+      "noDevices": "No devices yet. Purchase NFC products to get started.",
+      "assignLocation": "Assign to location"
+    },
+    "locations": {
+      "title": "Locations",
+      "addLocation": "Add Location",
+      "locationName": "Location Name",
+      "address": "Address",
+      "city": "City",
+      "country": "Country",
+      "primary": "Primary",
+      "noLocations": "No locations yet. Add your first location.",
+      "setPrimary": "Set as primary",
+      "devicesCount": "{count, plural, =0 {No devices} one {# device} other {# devices}}"
+    },
+    "platforms": {
+      "title": "Review Platforms",
+      "addPlatform": "Add Platform",
+      "platformName": "Platform",
+      "url": "Review URL",
+      "displayName": "Display Name",
+      "displayOrder": "Order",
+      "noPlatforms": "No platforms configured. Add a review platform to get started.",
+      "google": "Google",
+      "tripadvisor": "TripAdvisor",
+      "trustpilot": "Trustpilot",
+      "facebook": "Facebook",
+      "yelp": "Yelp",
+      "custom": "Custom"
+    },
+    "landingPage": {
+      "title": "Landing Page",
+      "preview": "Preview",
+      "headline": "Headline",
+      "subheadline": "Subheadline",
+      "logo": "Logo",
+      "backgroundColor": "Background Color",
+      "textColor": "Text Color",
+      "buttonColor": "Button Color",
+      "buttonTextColor": "Button Text Color",
+      "showPoweredBy": "Show 'Powered by BooztFrog'",
+      "saveChanges": "Save changes"
+    },
+    "orders": {
+      "title": "Orders",
+      "orderNumber": "Order #",
+      "date": "Date",
+      "status": "Status",
+      "total": "Total",
+      "noOrders": "No orders yet.",
+      "viewDetails": "View details",
+      "statuses": {
+        "pending": "Pending",
+        "paid": "Paid",
+        "processing": "Processing",
+        "production": "In Production",
+        "shipped": "Shipped",
+        "delivered": "Delivered",
+        "cancelled": "Cancelled",
+        "refunded": "Refunded"
+      }
+    },
+    "subscription": {
+      "title": "Subscription",
+      "currentPlan": "Current Plan",
+      "free": "Free",
+      "changePlan": "Change plan",
+      "manageBilling": "Manage billing",
+      "features": "Features",
+      "usage": "Usage",
+      "devicesUsed": "{used} of {limit} devices",
+      "locationsUsed": "{used} of {limit} locations"
+    },
+    "settings": {
+      "title": "Settings",
+      "businessProfile": "Business Profile",
+      "businessName": "Business Name",
+      "businessSlug": "URL Slug",
+      "website": "Website",
+      "phone": "Phone",
+      "address": "Address",
+      "city": "City",
+      "country": "Country",
+      "timezone": "Timezone",
+      "language": "Language",
+      "saveChanges": "Save changes",
+      "dangerZone": "Danger Zone",
+      "deleteBusiness": "Delete business",
+      "deleteWarning": "This action cannot be undone. All data will be permanently deleted."
+    }
+  },
+  "language": {
+    "en": "English",
+    "nb": "Norsk"
+  }
+}

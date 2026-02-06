@@ -1,0 +1,317 @@
+{
+  "common": {
+    "save": "Lagre",
+    "cancel": "Avbryt",
+    "delete": "Slett",
+    "edit": "Rediger",
+    "create": "Opprett",
+    "update": "Oppdater",
+    "search": "Søk",
+    "filter": "Filtrer",
+    "loading": "Laster...",
+    "error": "Noe gikk galt",
+    "success": "Suksess",
+    "confirm": "Bekreft",
+    "back": "Tilbake",
+    "next": "Neste",
+    "previous": "Forrige",
+    "close": "Lukk",
+    "yes": "Ja",
+    "no": "Nei",
+    "or": "eller",
+    "and": "og",
+    "noResults": "Ingen resultater funnet",
+    "viewAll": "Vis alle",
+    "learnMore": "Les mer",
+    "getStarted": "Kom i gang",
+    "name": "Navn",
+    "email": "E-post",
+    "password": "Passord",
+    "status": "Status",
+    "date": "Dato",
+    "actions": "Handlinger",
+    "active": "Aktiv",
+    "inactive": "Inaktiv",
+    "description": "Beskrivelse",
+    "type": "Type",
+    "price": "Pris",
+    "total": "Totalt",
+    "quantity": "Antall"
+  },
+  "nav": {
+    "home": "Hjem",
+    "products": "Produkter",
+    "pricing": "Priser",
+    "about": "Om oss",
+    "contact": "Kontakt",
+    "login": "Logg inn",
+    "signup": "Registrer deg",
+    "dashboard": "Dashbord",
+    "logout": "Logg ut",
+    "myAccount": "Min konto"
+  },
+  "footer": {
+    "company": "Selskap",
+    "about": "Om oss",
+    "contact": "Kontakt",
+    "careers": "Karriere",
+    "blog": "Blogg",
+    "product": "Produkt",
+    "features": "Funksjoner",
+    "pricing": "Priser",
+    "integrations": "Integrasjoner",
+    "changelog": "Endringslogg",
+    "support": "Støtte",
+    "helpCenter": "Hjelpesenter",
+    "documentation": "Dokumentasjon",
+    "status": "Status",
+    "legal": "Juridisk",
+    "privacy": "Personvern",
+    "terms": "Vilkår for bruk",
+    "cookies": "Informasjonskapsler",
+    "tagline": "Hjelper bedrifter med å samle flere anmeldelser gjennom NFC- og QR-teknologi.",
+    "copyright": "© {year} BooztFrog. Alle rettigheter reservert."
+  },
+  "home": {
+    "hero": {
+      "tagline": "Tap. Scan. Boozt.",
+      "title": "Få flere kundeanmeldelser enkelt",
+      "subtitle": "Gjør hver kundeinteraksjon til en anmeldelse med BooztFrogs NFC- og QR-produkter. Ett trykk er alt som trengs.",
+      "cta": "Begynn å samle anmeldelser",
+      "ctaSecondary": "Se hvordan det fungerer"
+    },
+    "products": {
+      "title": "Produkter bygget for anmeldelser",
+      "subtitle": "Premium NFC-kort, QR-klistremerker og displays designet for å gjøre det enkelt for kundene å legge igjen en anmeldelse.",
+      "viewAll": "Se alle produkter"
+    },
+    "howItWorks": {
+      "title": "Slik fungerer det",
+      "subtitle": "Tre enkle steg for å begynne å samle flere anmeldelser i dag.",
+      "step1": {
+        "title": "Velg ditt produkt",
+        "description": "Velg mellom NFC-kort, QR-klistremerker, bordskilt eller displaystativer."
+      },
+      "step2": {
+        "title": "Sett opp plattformene dine",
+        "description": "Koble til Google, TripAdvisor, Trustpilot eller en annen anmeldelsesplattform."
+      },
+      "step3": {
+        "title": "Begynn å samle anmeldelser",
+        "description": "Kunder trykker eller skanner og blir tatt direkte til å legge igjen en anmeldelse."
+      }
+    },
+    "pricing": {
+      "title": "Enkle, transparente priser",
+      "subtitle": "Start gratis og skaler etter behov. Ingen skjulte kostnader.",
+      "viewPlans": "Se alle planer"
+    },
+    "testimonials": {
+      "title": "Brukt av bedrifter over hele verden",
+      "subtitle": "Se hvordan BooztFrog hjelper bedrifter med å få flere anmeldelser."
+    },
+    "cta": {
+      "title": "Klar til å boozte anmeldelsene dine?",
+      "subtitle": "Bli med tusenvis av bedrifter som allerede bruker BooztFrog til å samle flere kundeanmeldelser.",
+      "button": "Kom i gang gratis"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Velkommen tilbake",
+      "subtitle": "Logg inn på BooztFrog-kontoen din",
+      "emailLabel": "E-postadresse",
+      "emailPlaceholder": "deg@eksempel.no",
+      "passwordLabel": "Passord",
+      "passwordPlaceholder": "Skriv inn passordet ditt",
+      "forgotPassword": "Glemt passord?",
+      "submit": "Logg inn",
+      "noAccount": "Har du ikke en konto?",
+      "signupLink": "Registrer deg"
+    },
+    "register": {
+      "title": "Opprett din konto",
+      "subtitle": "Begynn å samle flere anmeldelser i dag",
+      "nameLabel": "Fullt navn",
+      "namePlaceholder": "Ola Nordmann",
+      "emailLabel": "E-postadresse",
+      "emailPlaceholder": "deg@eksempel.no",
+      "passwordLabel": "Passord",
+      "passwordPlaceholder": "Opprett et passord",
+      "confirmPasswordLabel": "Bekreft passord",
+      "confirmPasswordPlaceholder": "Bekreft passordet ditt",
+      "submit": "Opprett konto",
+      "hasAccount": "Har du allerede en konto?",
+      "loginLink": "Logg inn",
+      "terms": "Ved å opprette en konto godtar du våre {terms} og {privacy}.",
+      "termsLink": "Vilkår for bruk",
+      "privacyLink": "Personvernerklæring"
+    },
+    "forgotPassword": {
+      "title": "Tilbakestill passordet ditt",
+      "subtitle": "Skriv inn e-postadressen din, så sender vi deg en tilbakestillingslenke",
+      "emailLabel": "E-postadresse",
+      "emailPlaceholder": "deg@eksempel.no",
+      "submit": "Send tilbakestillingslenke",
+      "backToLogin": "Tilbake til innlogging",
+      "success": "Hvis det finnes en konto med den e-postadressen, har vi sendt en lenke for tilbakestilling av passord."
+    }
+  },
+  "dashboard": {
+    "sidebar": {
+      "overview": "Dashbord",
+      "analytics": "Analyse",
+      "devices": "Enheter",
+      "locations": "Lokasjoner",
+      "platforms": "Plattformer",
+      "landingPage": "Landingsside",
+      "orders": "Bestillinger",
+      "subscription": "Abonnement",
+      "settings": "Innstillinger"
+    },
+    "topbar": {
+      "selectBusiness": "Velg bedrift",
+      "notifications": "Varsler",
+      "noNotifications": "Ingen nye varsler",
+      "profile": "Profil",
+      "settings": "Innstillinger",
+      "logout": "Logg ut"
+    },
+    "overview": {
+      "title": "Dashbord",
+      "welcome": "Velkommen tilbake, {name}!",
+      "totalScans": "Totalt skanninger",
+      "uniqueVisitors": "Unike besøkende",
+      "activeDevices": "Aktive enheter",
+      "reviewRate": "Anmeldelsesrate",
+      "recentActivity": "Nylig aktivitet",
+      "quickActions": "Hurtighandlinger",
+      "addDevice": "Legg til enhet",
+      "addLocation": "Legg til lokasjon",
+      "viewAnalytics": "Se analyse",
+      "noActivity": "Ingen nylig aktivitet"
+    },
+    "analytics": {
+      "title": "Analyse",
+      "totalScans": "Totalt skanninger",
+      "uniqueVisitors": "Unike besøkende",
+      "topPlatform": "Toppplattform",
+      "scansTrend": "Skanningstrend",
+      "dateRange": "Datoperiode",
+      "last7Days": "Siste 7 dager",
+      "last30Days": "Siste 30 dager",
+      "last90Days": "Siste 90 dager",
+      "lastYear": "Siste år",
+      "platformBreakdown": "Plattformfordeling",
+      "deviceBreakdown": "Enhetsfordeling",
+      "locationBreakdown": "Lokasjonsfordeling",
+      "scansOverTime": "Skanninger over tid"
+    },
+    "devices": {
+      "title": "Enheter",
+      "addDevice": "Legg til enhet",
+      "deviceCode": "Enhetskode",
+      "deviceType": "Type",
+      "location": "Lokasjon",
+      "label": "Etikett",
+      "lastScan": "Siste skanning",
+      "totalScans": "Totalt skanninger",
+      "status": "Status",
+      "activate": "Aktiver",
+      "deactivate": "Deaktiver",
+      "noDevices": "Ingen enheter ennå. Kjøp NFC-produkter for å komme i gang.",
+      "assignLocation": "Tilordne til lokasjon"
+    },
+    "locations": {
+      "title": "Lokasjoner",
+      "addLocation": "Legg til lokasjon",
+      "locationName": "Lokasjonsnavn",
+      "address": "Adresse",
+      "city": "By",
+      "country": "Land",
+      "primary": "Primær",
+      "noLocations": "Ingen lokasjoner ennå. Legg til din første lokasjon.",
+      "setPrimary": "Sett som primær",
+      "devicesCount": "{count, plural, =0 {Ingen enheter} one {# enhet} other {# enheter}}"
+    },
+    "platforms": {
+      "title": "Anmeldelsesplattformer",
+      "addPlatform": "Legg til plattform",
+      "platformName": "Plattform",
+      "url": "Anmeldelses-URL",
+      "displayName": "Visningsnavn",
+      "displayOrder": "Rekkefølge",
+      "noPlatforms": "Ingen plattformer konfigurert. Legg til en anmeldelsesplattform for å komme i gang.",
+      "google": "Google",
+      "tripadvisor": "TripAdvisor",
+      "trustpilot": "Trustpilot",
+      "facebook": "Facebook",
+      "yelp": "Yelp",
+      "custom": "Egendefinert"
+    },
+    "landingPage": {
+      "title": "Landingsside",
+      "preview": "Forhåndsvisning",
+      "headline": "Overskrift",
+      "subheadline": "Underoverskrift",
+      "logo": "Logo",
+      "backgroundColor": "Bakgrunnsfarge",
+      "textColor": "Tekstfarge",
+      "buttonColor": "Knappfarge",
+      "buttonTextColor": "Knapptekstfarge",
+      "showPoweredBy": "Vis «Drevet av BooztFrog»",
+      "saveChanges": "Lagre endringer"
+    },
+    "orders": {
+      "title": "Bestillinger",
+      "orderNumber": "Bestilling #",
+      "date": "Dato",
+      "status": "Status",
+      "total": "Totalt",
+      "noOrders": "Ingen bestillinger ennå.",
+      "viewDetails": "Se detaljer",
+      "statuses": {
+        "pending": "Venter",
+        "paid": "Betalt",
+        "processing": "Behandles",
+        "production": "I produksjon",
+        "shipped": "Sendt",
+        "delivered": "Levert",
+        "cancelled": "Kansellert",
+        "refunded": "Refundert"
+      }
+    },
+    "subscription": {
+      "title": "Abonnement",
+      "currentPlan": "Nåværende plan",
+      "free": "Gratis",
+      "changePlan": "Endre plan",
+      "manageBilling": "Administrer fakturering",
+      "features": "Funksjoner",
+      "usage": "Bruk",
+      "devicesUsed": "{used} av {limit} enheter",
+      "locationsUsed": "{used} av {limit} lokasjoner"
+    },
+    "settings": {
+      "title": "Innstillinger",
+      "businessProfile": "Bedriftsprofil",
+      "businessName": "Bedriftsnavn",
+      "businessSlug": "URL-slug",
+      "website": "Nettside",
+      "phone": "Telefon",
+      "address": "Adresse",
+      "city": "By",
+      "country": "Land",
+      "timezone": "Tidssone",
+      "language": "Språk",
+      "saveChanges": "Lagre endringer",
+      "dangerZone": "Faresone",
+      "deleteBusiness": "Slett bedrift",
+      "deleteWarning": "Denne handlingen kan ikke angres. Alle data vil bli permanent slettet."
+    }
+  },
+  "language": {
+    "en": "English",
+    "nb": "Norsk"
+  }
+}
