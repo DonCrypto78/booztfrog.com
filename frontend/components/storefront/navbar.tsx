@@ -122,18 +122,6 @@ export function Navbar() {
               </NavigationMenuContent>
             </NavigationMenuItem>
 
-            {/* How It Works */}
-            <NavigationMenuItem>
-              <NavigationMenuLink asChild>
-                <Link
-                  href={`/${locale}/how-it-works`}
-                  className="group inline-flex h-9 w-max items-center justify-center rounded-md px-4 py-2 text-sm font-medium text-muted-foreground transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
-                >
-                  {t('howItWorks')}
-                </Link>
-              </NavigationMenuLink>
-            </NavigationMenuItem>
-
             {/* Pricing */}
             <NavigationMenuItem>
               <NavigationMenuLink asChild>
@@ -268,15 +256,6 @@ export function Navbar() {
                 </Link>
               ))}
             </MobileDropdown>
-
-            {/* How It Works */}
-            <Link
-              href={`/${locale}/how-it-works`}
-              className="block rounded-md px-3 py-2 text-base font-medium text-muted-foreground hover:bg-secondary hover:text-foreground"
-              onClick={() => setIsMobileMenuOpen(false)}
-            >
-              {t('howItWorks')}
-            </Link>
 
             {/* Pricing */}
             <Link
