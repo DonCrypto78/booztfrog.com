@@ -2,13 +2,13 @@
 
 import { useLocale, useTranslations } from 'next-intl';
 import { usePathname, useRouter } from 'next/navigation';
+import { ChevronDown } from 'lucide-react';
 import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from '@/components/ui/select';
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from '@/components/ui/dropdown-menu';
 import { locales } from '@/i18n/routing';
 
 export function LanguageSwitcher() {
@@ -24,17 +24,22 @@ export function LanguageSwitcher() {
   }
 
   return (
-    <Select value={locale} onValueChange={handleChange}>
-      <SelectTrigger className="w-[120px]">
-        <SelectValue />
-      </SelectTrigger>
-      <SelectContent position="popper" sideOffset={4}>
+    <DropdownMenu modal={false}>
+      <DropdownMenuTrigger className="flex h-9 w-[120px] items-center justify-between rounded-md border bg-transparent px-3 py-2 text-sm shadow-xs outline-none">
+        {t(locale)}
+        <ChevronDown className="size-4 opacity-50" />
+      </DropdownMenuTrigger>
+      <DropdownMenuContent align="end" sideOffset={4}>
         {locales.map((loc) => (
-          <SelectItem key={loc} value={loc}>
+          <DropdownMenuItem
+            key={loc}
+            onClick={() => handleChange(loc)}
+            className={loc === locale ? 'font-medium' : ''}
+          >
             {t(loc)}
-          </SelectItem>
+          </DropdownMenuItem>
         ))}
-      </SelectContent>
-    </Select>
+      </DropdownMenuContent>
+    </DropdownMenu>
   );
 }
