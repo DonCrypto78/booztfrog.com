@@ -94,7 +94,7 @@ export function Navbar() {
         </Link>
 
         {/* Desktop Navigation */}
-        <NavigationMenu className="hidden lg:flex">
+        <NavigationMenu className="hidden lg:flex" viewport={false}>
           <NavigationMenuList>
             {/* Products dropdown */}
             <NavigationMenuItem>
