@@ -98,7 +98,7 @@ export function Navbar() {
           <NavigationMenuList>
             {/* Products dropdown */}
             <NavigationMenuItem>
-              <NavigationMenuTrigger className="text-sm font-medium text-muted-foreground">
+              <NavigationMenuTrigger className="text-sm font-medium text-[#072337] hover:bg-[#4CAF50] hover:text-white focus:bg-[#4CAF50] focus:text-white data-[state=open]:bg-[#4CAF50]/10 data-[state=open]:hover:bg-[#4CAF50] data-[state=open]:focus:bg-[#4CAF50]">
                 {t('products')}
               </NavigationMenuTrigger>
               <NavigationMenuContent>
@@ -108,10 +108,10 @@ export function Navbar() {
                       <NavigationMenuLink asChild>
                         <Link
                           href={item.href}
-                          className="block select-none rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                          className="group/item block select-none rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-[#4CAF50] hover:text-white focus:bg-[#4CAF50] focus:text-white"
                         >
                           <div className="text-sm font-medium leading-none">{item.label}</div>
-                          <p className="mt-1 text-xs leading-snug text-muted-foreground">
+                          <p className="mt-1 text-xs leading-snug text-muted-foreground group-hover/item:text-white/80">
                             {item.description}
                           </p>
                         </Link>
@@ -127,7 +127,7 @@ export function Navbar() {
               <NavigationMenuLink asChild>
                 <Link
                   href={`/${locale}/pricing`}
-                  className="group inline-flex h-9 w-max items-center justify-center rounded-md px-4 py-2 text-sm font-medium text-muted-foreground transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                  className="group inline-flex h-9 w-max items-center justify-center rounded-md px-4 py-2 text-sm font-medium text-[#072337] transition-colors hover:bg-[#4CAF50] hover:text-white focus:bg-[#4CAF50] focus:text-white"
                 >
                   {t('pricing')}
                 </Link>
@@ -136,7 +136,7 @@ export function Navbar() {
 
             {/* Industries dropdown */}
             <NavigationMenuItem>
-              <NavigationMenuTrigger className="text-sm font-medium text-muted-foreground">
+              <NavigationMenuTrigger className="text-sm font-medium text-[#072337] hover:bg-[#4CAF50] hover:text-white focus:bg-[#4CAF50] focus:text-white data-[state=open]:bg-[#4CAF50]/10 data-[state=open]:hover:bg-[#4CAF50] data-[state=open]:focus:bg-[#4CAF50]">
                 {t('industries')}
               </NavigationMenuTrigger>
               <NavigationMenuContent>
@@ -146,7 +146,7 @@ export function Navbar() {
                       <NavigationMenuLink asChild>
                         <Link
                           href={item.href}
-                          className="block select-none rounded-md px-3 py-2 text-sm leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                          className="block select-none rounded-md px-3 py-2 text-sm leading-none no-underline outline-none transition-colors hover:bg-[#4CAF50] hover:text-white focus:bg-[#4CAF50] focus:text-white"
                         >
                           {item.label}
                         </Link>
@@ -162,7 +162,7 @@ export function Navbar() {
               <NavigationMenuLink asChild>
                 <Link
                   href={`/${locale}/reviews`}
-                  className="group inline-flex h-9 w-max items-center justify-center rounded-md px-4 py-2 text-sm font-medium text-muted-foreground transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                  className="group inline-flex h-9 w-max items-center justify-center rounded-md px-4 py-2 text-sm font-medium text-[#072337] transition-colors hover:bg-[#4CAF50] hover:text-white focus:bg-[#4CAF50] focus:text-white"
                 >
                   {t('reviews')}
                 </Link>
@@ -174,7 +174,7 @@ export function Navbar() {
               <NavigationMenuLink asChild>
                 <Link
                   href={`/${locale}/blog`}
-                  className="group inline-flex h-9 w-max items-center justify-center rounded-md px-4 py-2 text-sm font-medium text-muted-foreground transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                  className="group inline-flex h-9 w-max items-center justify-center rounded-md px-4 py-2 text-sm font-medium text-[#072337] transition-colors hover:bg-[#4CAF50] hover:text-white focus:bg-[#4CAF50] focus:text-white"
                 >
                   {t('blog')}
                 </Link>
@@ -183,7 +183,7 @@ export function Navbar() {
 
             {/* Support dropdown */}
             <NavigationMenuItem>
-              <NavigationMenuTrigger className="text-sm font-medium text-muted-foreground">
+              <NavigationMenuTrigger className="text-sm font-medium text-[#072337] hover:bg-[#4CAF50] hover:text-white focus:bg-[#4CAF50] focus:text-white data-[state=open]:bg-[#4CAF50]/10 data-[state=open]:hover:bg-[#4CAF50] data-[state=open]:focus:bg-[#4CAF50]">
                 {t('support')}
               </NavigationMenuTrigger>
               <NavigationMenuContent>
@@ -193,10 +193,10 @@ export function Navbar() {
                       <NavigationMenuLink asChild>
                         <Link
                           href={item.href}
-                          className="block select-none rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                          className="group/item block select-none rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-[#4CAF50] hover:text-white focus:bg-[#4CAF50] focus:text-white"
                         >
                           <div className="text-sm font-medium leading-none">{item.label}</div>
-                          <p className="mt-1 text-xs leading-snug text-muted-foreground">
+                          <p className="mt-1 text-xs leading-snug text-muted-foreground group-hover/item:text-white/80">
                             {item.description}
                           </p>
                         </Link>
@@ -249,7 +249,7 @@ export function Navbar() {
                 <Link
                   key={item.href}
                   href={item.href}
-                  className="block rounded-md px-3 py-2 text-sm text-muted-foreground hover:bg-secondary hover:text-foreground"
+                  className="block rounded-md px-3 py-2 text-sm text-[#072337] hover:bg-[#4CAF50] hover:text-white"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   {item.label}
@@ -260,7 +260,7 @@ export function Navbar() {
             {/* Pricing */}
             <Link
               href={`/${locale}/pricing`}
-              className="block rounded-md px-3 py-2 text-base font-medium text-muted-foreground hover:bg-secondary hover:text-foreground"
+              className="block rounded-md px-3 py-2 text-base font-medium text-[#072337] hover:bg-[#4CAF50] hover:text-white"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               {t('pricing')}
@@ -276,7 +276,7 @@ export function Navbar() {
                 <Link
                   key={item.href}
                   href={item.href}
-                  className="block rounded-md px-3 py-2 text-sm text-muted-foreground hover:bg-secondary hover:text-foreground"
+                  className="block rounded-md px-3 py-2 text-sm text-[#072337] hover:bg-[#4CAF50] hover:text-white"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   {item.label}
@@ -287,7 +287,7 @@ export function Navbar() {
             {/* Reviews */}
             <Link
               href={`/${locale}/reviews`}
-              className="block rounded-md px-3 py-2 text-base font-medium text-muted-foreground hover:bg-secondary hover:text-foreground"
+              className="block rounded-md px-3 py-2 text-base font-medium text-[#072337] hover:bg-[#4CAF50] hover:text-white"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               {t('reviews')}
@@ -296,7 +296,7 @@ export function Navbar() {
             {/* Blog */}
             <Link
               href={`/${locale}/blog`}
-              className="block rounded-md px-3 py-2 text-base font-medium text-muted-foreground hover:bg-secondary hover:text-foreground"
+              className="block rounded-md px-3 py-2 text-base font-medium text-[#072337] hover:bg-[#4CAF50] hover:text-white"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               {t('blog')}
@@ -312,7 +312,7 @@ export function Navbar() {
                 <Link
                   key={item.href}
                   href={item.href}
-                  className="block rounded-md px-3 py-2 text-sm text-muted-foreground hover:bg-secondary hover:text-foreground"
+                  className="block rounded-md px-3 py-2 text-sm text-[#072337] hover:bg-[#4CAF50] hover:text-white"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   {item.label}
@@ -355,7 +355,7 @@ function MobileDropdown({
       <button
         type="button"
         onClick={onToggle}
-        className="flex w-full items-center justify-between rounded-md px-3 py-2 text-base font-medium text-muted-foreground hover:bg-secondary hover:text-foreground"
+        className="flex w-full items-center justify-between rounded-md px-3 py-2 text-base font-medium text-[#072337] hover:bg-[#4CAF50] hover:text-white"
       >
         {label}
         <ChevronDown
