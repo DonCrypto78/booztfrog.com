@@ -28,7 +28,7 @@ export function LanguageSwitcher() {
       <SelectTrigger className="w-[120px]">
         <SelectValue />
       </SelectTrigger>
-      <SelectContent>
+      <SelectContent position="popper" sideOffset={4}>
         {locales.map((loc) => (
           <SelectItem key={loc} value={loc}>
             {t(loc)}
